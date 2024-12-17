@@ -250,7 +250,7 @@ public class Code {
 			
 			public int run(PriceFeedData price){
 				if( price == null )
-					return 0;
+					return 1;
 				
 				if( !initalized ){
 					type = -1; initalized = true;
